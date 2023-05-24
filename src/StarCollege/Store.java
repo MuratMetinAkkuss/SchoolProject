@@ -26,6 +26,7 @@ public class Store {
                 Teacher.tabOfTeacher();
                 break;
             case "3"://tab of student
+                Student.studentMenu();
                 break;
             case "q"://exit
             case "Q"://exit
@@ -51,6 +52,6 @@ public class Store {
     public static void stopProject() {
 
         System.out.println("Your preference has been chosen 'exit' ");
-
+        System.exit(0);
     }
 }
